@@ -1,7 +1,7 @@
 # week1_trendyol_landingpage
 
 ## Ekip Üyeleri
-## Asistan;
+### Asistan;
 * Barış Tunar
 ### Öğrenciler;
 * Efdal İncesu
@@ -11,9 +11,8 @@
 * Mehmet can boz
 * Aliye Sinem Battal
 * Selin İlayda Karabulut
-1
-İlk hafta yapılan workshop ödevi
 
+## Ödev Detay
 * Landing ve product listing sayfalarının geri kalanı ödev ile birlikte tasarlanıp gönderilecek.
 * Herhangi bir framework kullanılmayacak, pure HTML ve CSS ile yazılacak.
 
