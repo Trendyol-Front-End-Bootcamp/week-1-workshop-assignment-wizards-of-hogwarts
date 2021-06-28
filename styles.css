@@ -1,188 +1,218 @@
 :root {
-    --primary-color: #F27A1A;
-    --account-link-color: #333;
-    --account-link-hover-color: var(--primary-color);
+  --primary-color: #f27a1a;
+  --account-link-color: #333;
+  --account-link-hover-color: var(--primary-color);
 }
 
 html,
 body {
-    margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-h1,h2,h3,h4,h5,h6{
-    margin: 0px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .container__header {
-    width: 1080px;
-    margin: 0 auto;
+  width: 1080px;
+  margin: 0 auto;
 }
 .container__main {
-    width: 1185px;
-    margin: 0 auto;
+  width: 1185px;
+  margin: 0 auto;
 }
-
 
 .header-links {
-    display: flex;
-    justify-content: flex-end;
-    gap: 30px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
 }
 .header-links a {
-    color: #999999;
-    font-size: 12px;
+  color: #999999;
+  font-size: 12px;
 }
 .header-links a:hover {
-    color: #666666;
+  color: #666666;
 }
 
 .logo-search-account-container {
-    display: grid;
-    grid-template-columns: 140px 1fr 335px;
-    margin-top: 10px;
+  display: grid;
+  grid-template-columns: 140px 1fr 335px;
+  margin-top: 10px;
 }
 
 .search {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: 42px;
-    background-color: #F3F3F3;
-    border-radius: 6px;
-    padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 42px;
+  background-color: #f3f3f3;
+  border-radius: 6px;
+  padding: 10px;
 }
 .search input {
-    flex: 1;
-    background: none;
-    border: none;
-    outline: none;
-    font-size: 12px;
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 12px;
 }
 .search button {
-    background: none;
-    border: none;
+  background: none;
+  border: none;
 }
 
 .account-list {
-    display: flex;
-    justify-content: flex-end;
-    gap: 30px;
-    font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  font-size: 12px;
 }
 
 .account-list li a {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    color: var(--account-link-color);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--account-link-color);
 }
 
 .account-list li a:hover {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
-
 .account-list li a:hover svg path {
-    fill: var(--account-link-hover-color)
+  fill: var(--account-link-hover-color);
 }
 
 .user-menu {
-    display: none;
-    width: 170px;
-    height: 289px;
-    padding: 15px 10px;
-    background-color: #fff;
-    border: 1px solid #E6E6E6;
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.07);
+  display: none;
+  width: 170px;
+  height: 289px;
+  padding: 15px 10px;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.07);
 }
 .account-list li:first-child {
-    color: var(--primary-color);
-    margin-bottom: 12px;
+  color: var(--primary-color);
+  margin-bottom: 12px;
 }
 .account-list li:hover {
-    position: relative;
+  position: relative;
 }
 .account-list li:hover .user-menu {
-    display: block;
-    position: absolute;
-    top: 20px;
-    left: -60px;
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: -60px;
 }
 
 .main-content {
-    
 }
 
-.main-content .menu-links ul{
-    display: flex;
-    gap: 15px;
-    padding: 0;
+.main-content .menu-links ul {
+  display: flex;
+  gap: 15px;
+  padding: 0;
 }
 
-.main-content .menu-links ul li a{
-    margin-right: 15px;
-    color: var(--account-link-color);
-    font-size: 14px;
+.main-content .menu-links ul li a {
+  margin-right: 15px;
+  color: var(--account-link-color);
+  font-size: 14px;
 }
 
-.list-content{
-    display: grid;
-    grid-template-columns:185px  980px;
-    gap: 20px;
+.list-content {
+  display: grid;
+  grid-template-columns: 185px 980px;
+  gap: 20px;
 }
-.list-content .product-top{
-    display: flex;
-    justify-content: space-between;
-    
+.list-content .product-top {
+  display: flex;
+  justify-content: space-between;
 }
-.list-content .product-top #option-dropdown{
-width: 180px;
-height: 30px;
-align-self: baseline;
-padding: 8px 0px 7px 10px;
-font-size: 12px;
-color: #666666;
-border: 1px solid #E2E2E2;
-outline: none;
-background: transparent;
-line-height: 15px;
+.list-content .product-top #option-dropdown {
+  width: 180px;
+  height: 30px;
+  align-self: baseline;
+  padding: 8px 0px 7px 10px;
+  font-size: 12px;
+  color: #666666;
+  border: 1px solid #e2e2e2;
+  outline: none;
+  background: transparent;
+  line-height: 15px;
 }
-.list-content .content-sidebar .sidebar-product-list{
-    display: flex;
-    flex-direction: column;
-    gap:5px;
-    padding:0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
+.list-content .content-sidebar .sidebar-product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.list-content .content-sidebar h1, .list-content .product-top h1{
-    font-size: 14px;
-    font-weight: 600;
-    color: black;
-   
+.list-content .content-sidebar h1,
+.list-content .product-top h1,
+.list-content .brand-list h1,
+.list-content .opportunity-products h1 {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
 }
-.list-content .content-sidebar button{
-    border: 0px;
-    background: none;
-    color: var(--primary-color);
-    padding: 0px;
-    font-weight: 600;
-    font-size: 13px;
-    cursor: pointer;
+.list-content .content-sidebar button {
+  border: 0px;
+  background: none;
+  color: var(--primary-color);
+  padding: 0px;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
 }
-.list-content .content-sidebar .sidebar-product-list a{
-    color: black;
-    font-size: 13px;
+.list-content .content-sidebar .sidebar-product-list a,
+.list-content .opportunity-products label {
+  color: black;
+  font-size: 13px;
 }
+
+.opportunity-products {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.opportunity-products input,
+.brand-list input {
+  display: none;
+}
+
+.opportunity-products .checkbox::before
+/* .brand-list label::before */ {
+  position: absolute;
+  left: 0px;
+  content: '';
+  width: 18px;
+  height: 18px;
+  border: 1.5px solid #d6d6d6;
+  border-radius: 2px;
+}
+
+/* .brand-list-items label,
+.opportunity-products label {
+  margin-left: 25px;
+} */
