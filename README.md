@@ -8,7 +8,7 @@
 * Hüseyin Şen
 * Arda Berrun Karaca
 * Ahmet Işık
-* Mehmet can boz
+* Mehmet Can Boz
 * Aliye Sinem Battal
 * Selin İlayda Karabulut
 
