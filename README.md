@@ -1,6 +1,5 @@
 # week1_trendyol_landingpage
 
-## Ekip Üyeleri
 ### Asistan;
 * Barış Tunar
 ### Öğrenciler;
