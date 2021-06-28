@@ -22,10 +22,15 @@ ul {
     list-style: none;
 }
 
-.container {
+.container__header {
     width: 1080px;
     margin: 0 auto;
 }
+.container__main {
+    width: 1185px;
+    margin: 0 auto;
+}
+
 
 .header-links {
     display: flex;
@@ -111,4 +116,19 @@ ul {
     position: absolute;
     top: 20px;
     left: -60px;
+}
+
+.main-content {
+    
+}
+
+.main-content .menu-links ul{
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+.main-content .menu-links ul li a{
+    margin-right: 15px;
+    color: var(--account-link-color);
 }
