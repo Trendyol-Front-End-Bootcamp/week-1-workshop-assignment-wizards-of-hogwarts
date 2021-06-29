@@ -207,18 +207,21 @@ ul {
 }
 
 .opportunity-products .oppotunity-product-item,
-.brand-list-items .brand-list-item {
+.brand-list-items .brand-list-item,
+.free-ship .free-ship-item{
   position: relative;
   margin-bottom: 10px;
 }
 
 .opportunity-products input,
-.brand-list-items input {
+.brand-list-items input,
+.free-ship .free-ship-item input {
   display: none;
 }
 
 .opportunity-products .checkbox::before,
-.brand-list-item .checkbox::before{
+.brand-list-item .checkbox::before,
+.free-ship .free-ship-item .checkbox::before{
   content: '';
   position: absolute;
   left: 0;
@@ -235,6 +238,10 @@ ul {
 }
 
 /* .brand-list */
+.brand-list {
+  margin-bottom: 37px;
+}
+
 .brand-list input {
   width: 175px;
   height: 27px;
@@ -244,6 +251,24 @@ ul {
   padding:6px 0 6px 10px;
   margin-bottom: 10px;
 }
+.brand-list .brand-list-items {
+  overflow-y: scroll;
+  height: 188px;
+}
+.brand-list .brand-list-items::-webkit-scrollbar{
+  width: 8px;
+  border-radius: 100px;
+  background: #f1f1f1;
+}
+.brand-list .brand-list-items::-webkit-scrollbar-thumb{
+  background: #888;
+  border-radius: 100px;
+}
+
+.brand-list .brand-list-items .brand-list-item label {
+  font-size: 13px;
+}
+
 .brand-list input::placeholder{
   font-size: 12px;
   color: #4b4b4b;
@@ -251,4 +276,68 @@ ul {
 .brand-list input:focus{
   outline: none;
 }
+
+/* .price-interval */
+.price-interval .price-interval-top {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+.price-interval .price-interval-top input{
+  width: 57px;
+  height: 27px;
+  border: 1px solid #e2e2e2;
+  background-color: #fafafa;
+  border-radius: 3px;
+  outline: none;
+  text-align: center;
+}
+.price-interval .price-interval-top input:last-child{
+  width: 27px;
+  height: 27px;
+  border-radius: 3px;
+  background: url("assets/icons/icon-search-white.svg") no-repeat center #dadada;
+  align-self: center;
+  margin-left: 8px;
+}
+
+.price-interval .price-interval-top input::placeholder{
+  font-size: 12px;
+  color: #4b4b4b;
+}
+.price-interval .price-interval-main .price-interval-item {
+  margin: 16px 0 10px 0;
+  position: relative;
+  cursor: pointer;
+} 
+.price-interval .price-interval-main a{
+  color: black;
+}
+.price-interval .price-interval-main .price-interval-item input {
+  opacity: 0;
+  margin-right: 0;
+}
+.price-interval .price-interval-main .price-interval-item span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1.5px solid #d6d6d6; 
+}
+.price-interval .price-interval-main .price-interval-item label{
+  margin-left: 13px;
+  font-size: 12px;
+}
+
+/*.free-ship*/
+
+.brand-list .brand-list-items .brand-list-item label {
+  font-size: 13px;
+}
+.free-ship .free-ship-item label {
+  margin-left: 30px;
+}
+
 
