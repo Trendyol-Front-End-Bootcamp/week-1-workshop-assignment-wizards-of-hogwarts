@@ -283,3 +283,63 @@ ul.account-list > li {
   font-size: 12px;
   color: #333;
 }
+
+.main-sections {
+  width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 750px 20px 330px;
+  padding-top: 20px;
+}
+
+.main-sections div {
+}
+
+
+.left-first-section {
+  background: #C4C4C4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 750px;
+  height: 340px;
+}
+.left-second-section {
+  background: #C4C4C4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 750px;
+  height: 340px;
+}
+
+.right-first-section {
+  background: #C4C4C4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  width: 330px;
+  height: 330px;
+  margin-bottom: 40px;
+
+}
+
+.right-second-section {
+  background: #C4C4C4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  width: 330px;
+  height: 330px;
+
+}
+
+
+.alt-alan {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background: springgreen;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
