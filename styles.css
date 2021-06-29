@@ -21,6 +21,13 @@ h5,
 h6 {
   margin: 0px;
 }
+hr{
+  border-top:1px;
+  border-left: 0;
+  border-right: 0;
+  border-top-color: #ececec;
+  margin: 20px 0 ;
+}
 a {
   text-decoration: none;
 }
@@ -190,29 +197,58 @@ ul {
   font-size: 13px;
 }
 
+/* .opportunity-products */
 .opportunity-products {
   display: flex;
   flex-direction: column;
+}
+.opportunity-products h1, .brand-list h1 {
+  margin-bottom: 10px;
+}
+
+.opportunity-products .oppotunity-product-item,
+.brand-list-items .brand-list-item {
   position: relative;
+  margin-bottom: 10px;
 }
 
 .opportunity-products input,
-.brand-list input {
+.brand-list-items input {
   display: none;
 }
 
-.opportunity-products .checkbox::before
-/* .brand-list label::before */ {
-  position: absolute;
-  left: 0px;
+.opportunity-products .checkbox::before,
+.brand-list-item .checkbox::before{
   content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
   width: 18px;
   height: 18px;
   border: 1.5px solid #d6d6d6;
   border-radius: 2px;
 }
 
-/* .brand-list-items label,
-.opportunity-products label {
+.opportunity-products label,
+.brand-list-item label {
   margin-left: 25px;
-} */
+}
+
+/* .brand-list */
+.brand-list input {
+  width: 175px;
+  height: 27px;
+  background-color: #fafafa;
+  border-radius: 3px;
+  border: 1px solid #e2e2e2;
+  padding:6px 0 6px 10px;
+  margin-bottom: 10px;
+}
+.brand-list input::placeholder{
+  font-size: 12px;
+  color: #4b4b4b;
+}
+.brand-list input:focus{
+  outline: none;
+}
+
