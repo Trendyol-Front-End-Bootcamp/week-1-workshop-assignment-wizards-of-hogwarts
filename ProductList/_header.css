@@ -34,6 +34,15 @@
     background-color: #f3f3f3;
     border-radius: 6px;
     padding: 10px;
+    border: 1px solid #f3f3f3;
+    border-bottom: none;
+    position: relative;
+  }
+  .search:focus-within {
+    border: 1px solid var(--primary-color);
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
   .search input {
     flex: 1;
@@ -47,6 +56,57 @@
     border: none;
   }
   
+
+
+  .search-history-container {
+    display: none;
+  }
+  
+  .search:focus-within .search-history-container {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    width: 100.3%;
+    height: 167px;
+    top: 41px;
+    left: -1px;
+    border: 1px solid var(--primary-color);
+    z-index: 2;
+  }
+  
+  .search-history-container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0 18px;
+    font-size: 12px;
+  }
+  
+  .search-history-container-header h6 {
+    color: var(--primary-color);
+    font-size: 12px;
+    margin: 12px 0;
+  }
+  
+  .search-history-container-header a {
+    color: #333;
+  }
+  
+  .search-history-container ul {
+    margin: 0;
+    padding-left: 18px;
+    font-size: 12px;
+  }
+  
+  .search-history-container ul li {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .search-history-container ul li a {
+    color: #333;
+  }
+
   
   
   /**/
