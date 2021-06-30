@@ -1,0 +1,6 @@
+:root {
+    --primary-color: #f27a1a;
+    --account-link-color: #333;
+    --account-link-hover-color: var(--primary-color);
+  }
+  
