@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="tr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      En Trend Ürünler Türkiye'nin Online Alışveriş Sitesi Trendyol'da
-    </title>
+<html lang="en">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="container">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>En Trend Ürünler Türkiye'nin Online Alışveriş Sitesi Trendyol'da</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/styles/product-list-main.css" />
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="container__header">
       <section class="top-banner">
         <img
-          src="assets/images/top-banner.jpg"
+          src="./assets/images/top-banner.jpg"
           alt="Trendyol üst kampanya banner"
         />
       </section>
@@ -34,8 +34,8 @@
         </div>
 
         <div class="logo-search-account-container">
-          <a href="/Homepage/index.html">
-            <img src="assets/images/logo.svg" alt="Trendyol Logo" />
+          <a href="index.html">
+            <img src="./assets/images/logo.svg" alt="Trendyol Logo" />
           </a>
           <form class="search" action="" method="POST">
             <input
@@ -278,14 +278,14 @@
       </header>
     </div>
     <nav class="header-tabs-navigation">
-      <ul class="header-tabs container">
+      <ul class="header-tabs container__header">
         <li>
           <a href="#">Kadın</a>
           <div class="sub-nav">
             <div class="sub-nav-column">
               <ul class="sub-nav-list">
                 <li class="sub-nav-list-item">
-                  <a href="/ProductList/product-listing.html">Sofra & Mutfak</a>
+                  <a href="product-listing.html">Sofra & Mutfak</a>
                 </li>
                 <li class="sub-nav-list-item"><a href="#">Yemek Takımı</a></li>
                 <li class="sub-nav-list-item">
@@ -1712,94 +1712,862 @@
         </li>
       </ul>
     </nav>
+ 
 
-    <main class="container">
-      <div class="circled-slider">
-        <a href="#">
-          <img src="assets/images/75x75.png" alt="75x75" />
-          <p>Sana Özel</p>
-        </a>
-        <a href="#">
-          <img src="assets/images/75x75.png" alt="75x75" />
-          <p>Sen De Al!</p>
-        </a>
-        <a href="#">
-          <img src="assets/images/75x75.png" alt="75x75" />
-          <p>Ev Bakım</p>
-        </a>
-        <a href="#">
-          <img src="assets/images/75x75.png" alt="75x75" />
-          <p>Kişisel Bakım</p>
-        </a>
-        <a href="#">
-          <img src="assets/images/75x75.png" alt="75x75" />
-          <p>İçecek</p>
-        </a>
-        <a href="#">
-          <img src="assets/images/75x75.png" alt="75x75" />
-          <p>Pet Shop</p>
-        </a>
-        <a href="#">
-          <img src="assets/images/75x75.png" alt="75x75" />
-          <p>Gıda</p>
-        </a>
-        <a href="#">
-          <img src="assets/images/75x75.png" alt="75x75" />
-          <p>Sağlık</p>
-        </a>
-        <a href="#">
-          <img src="assets/images/75x75.png" alt="75x75" />
-          <p>Doğal Ürünler</p>
-        </a>
-        <a href="#">
-          <img src="assets/images/75x75.png" alt="75x75" />
-          <p>Favoriler</p>
-        </a>
-        <a href="#">
-          <img src="assets/images/75x75.png" alt="75x75" />
-          <p>Aksesuar</p>
-        </a>
-      </div>
-
-      <div class="main-sections">
-        <div class="left-first-section">
-          <div class="bottom-navbar">
-            <p>
-              <a href="#"> Flaş 500 Ürün Saat & Gözlük</a>
-            </p>
-          </div>
-        </div>
-        <div class="right-first-section"></div>
-        <div class="left-second-section">
-          <div class="bottom-navbar">
-            <p>
-              <a href="#">Saatte Dev İndirim</a>
-            </p>
-            <p class="start-shop">
-              <a href="#">Alışverişe başla</a>
-
-              <svg
-                class="left-arrow"
-                width="7"
-                height="12"
-                viewBox="0 0 7 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+    <div class="container__main">
+      <section class="main-content">
+        <div class="menu-links">
+          <ul>
+            <li>
+              <a href="#anasayfa">Anasayfa</a>
+              <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M4.89284 5.97711L1.1733 1.85313C0.997273 1.65796 0.997273 1.34154 1.1733 1.14637C1.34932 0.951209 1.63472 0.951209 1.81075 1.14637L5.84377 5.61789C5.87996 5.65801 5.9087 5.70328 5.93001 5.75155C6.0349 5.9126 6.02196 6.13875 5.89119 6.28373L1.7463 10.8793C1.60117 11.0402 1.36591 11.0402 1.22078 10.8793L1.10885 10.7553C0.963718 10.5944 0.963718 10.3335 1.10885 10.1726L4.89284 5.97711Z"
-                  fill="white"
-                  stroke="white"
-                  stroke-width="0.3"
-                />
+                  fill="#FF671D" stroke="#FF671D" />
               </svg>
-            </p>
+            </li>
+            <li>
+              <a href="#kadın">Kadın</a>
+              <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M4.89284 5.97711L1.1733 1.85313C0.997273 1.65796 0.997273 1.34154 1.1733 1.14637C1.34932 0.951209 1.63472 0.951209 1.81075 1.14637L5.84377 5.61789C5.87996 5.65801 5.9087 5.70328 5.93001 5.75155C6.0349 5.9126 6.02196 6.13875 5.89119 6.28373L1.7463 10.8793C1.60117 11.0402 1.36591 11.0402 1.22078 10.8793L1.10885 10.7553C0.963718 10.5944 0.963718 10.3335 1.10885 10.1726L4.89284 5.97711Z"
+                  fill="#FF671D" stroke="#FF671D" />
+              </svg>
+            </li>
+            <li><a href="#giyim">Giyim</a></li>
+          </ul>
+        </div>
+
+        <!-- Sidebar and Product Content -->
+        <div class="list-content">
+
+          <div class="content-sidebar">
+            <div class="related-categories">
+
+              <h1>İlgili Kategoriler</h1>
+
+              <ul class="sidebar-product-list">
+                <li><a href="#tshirt">T-Shirt</a></li>
+                <li><a href="#elbise">Elbise</a></li>
+                <li><a href="#btb">Bluz&Tunik&Büstiyer</a></li>
+                <li><a href="#jeans">Jeans</a></li>
+                <li><a href="#gömlek">Gömlek</a></li>
+              </ul>
+
+              <button>DAHA FAZLA GÖSTER</button>
+
+            </div>
+
+            <hr>
+
+            <div class="opportunity-products">
+              <h1>Fırsat Ürünleri</h1>
+
+              <div class="opportunity-product-item">
+                <input type="checkbox" name="dortyildiz" id="dortyildiz" />
+                <div class="checkbox"></div>
+                <label for="dortyildiz">4 Yıldızlı Fırsat Ürünleri</label>
+              </div>
+
+              <div class="opportunity-product-item">
+                <input type="checkbox" name="ucyildiz" id="ucyildiz" />
+                <div class="checkbox"></div>
+                <label for="dortyildiz">3 Yıldızlı Fırsat Ürünleri</label>
+              </div>
+
+              <div class="opportunity-product-item">
+                <input type="checkbox" name="ikiyildiz" id="ikiyildiz"></input>
+                <div class="checkbox"></div>
+                <label for="dortyildiz">2 Yıldızlı Fırsat Ürünleri</label>
+              </div>
+
+            </div>
+
+            <hr>
+
+            <div class="brand-list">
+              <h1>Marka</h1>
+
+              <input type="text" name="brand-search" id="brand-search" placeholder="Marka Ara">
+
+              <div class="brand-list-items">
+
+                <div class="brand-list-item">
+                  <input type="checkbox" name="trendyolmilla" id="trendyolmilla" />
+                  <div class="checkbox"></div>
+                  <label for="trendyolmilla">TRENDYOLMİLLA</label>
+                </div>
+
+                <div class="brand-list-item">
+                  <input type="checkbox" name="koton" id="koton" />
+                  <div class="checkbox"></div>
+                  <label for="koton">Koton</label>
+                </div>
+
+                <div class="brand-list-item">
+                  <input type="checkbox" name="defacto" id="defacto"></input>
+                  <div class="checkbox"></div>
+                  <label for="defacto">Defacto</label>
+                </div>
+
+                <div class="brand-list-item">
+                  <input type="checkbox" name="addax" id="addax" />
+                  <div class="checkbox"></div>
+                  <label for="addax">Addax</label>
+                </div>
+
+                <div class="brand-list-item">
+                  <input type="checkbox" name="happiness" id="happiness" />
+                  <div class="checkbox"></div>
+                  <label for="happiness">Happiness İst.</label>
+                </div>
+
+                <div class="brand-list-item">
+                  <input type="checkbox" name="olalook" id="olalook"></input>
+                  <div class="checkbox"></div>
+                  <label for="olalook">Olalook</label>
+                </div>
+
+                <div class="brand-list-item">
+                  <input type="checkbox" name="trendalaçatı" id="trendalaçatı"></input>
+                  <div class="checkbox"></div>
+                  <label for="trendalaçatı">Trend Alaçatı Stili</label>
+                </div>
+
+                <div class="brand-list-item">
+                  <input type="checkbox" name="trendalaçatı" id="trendalaçatı"></input>
+                  <div class="checkbox"></div>
+                  <label for="trendalaçatı">Trend Alaçatı Stili</label>
+                </div>
+
+                <div class="brand-list-item">
+                  <input type="checkbox" name="trendalaçatı" id="trendalaçatı"></input>
+                  <div class="checkbox"></div>
+                  <label for="trendalaçatı">Trend Alaçatı Stili</label>
+                </div>
+
+                <div class="brand-list-item">
+                  <input type="checkbox" name="trendalaçatı" id="trendalaçatı"></input>
+                  <div class="checkbox"></div>
+                  <label for="trendalaçatı">Trend Alaçatı Stili</label>
+                </div>
+
+                <div class="brand-list-item">
+                  <input type="checkbox" name="trendalaçatı" id="trendalaçatı"></input>
+                  <div class="checkbox"></div>
+                  <label for="trendalaçatı">Trend Alaçatı Stili</label>
+                </div>
+
+                <div class="brand-list-item">
+                  <input type="checkbox" name="trendalaçatı" id="trendalaçatı"></input>
+                  <div class="checkbox"></div>
+                  <label for="trendalaçatı">Trend Alaçatı Stili</label>
+                </div>
+
+              </div>
+            </div>
+
+            <hr style="margin-top: 0;">
+
+            <div class="price-interval">
+              <h1>Fiyat</h1>
+              <form method="post">
+                <div class="price-interval-top">
+                  <input type="text" placeholder="En Az">
+                  <span>-</span>
+                  <input type="text" placeholder="En Çok">
+                  <input type="submit" value="">
+                </div>
+                <div class="price-interval-main">
+
+                  <a href="#">
+                    <div class="price-interval-item">
+                      <input type="radio" name="0-50" id="0-50" />
+                      <span class="checkmark"></span>
+                      <label for="0-50">0 TL - 50 TL</label>
+                    </div>
+                  </a>
+
+                  <a href="#">
+                    <div class="price-interval-item">
+                      <input type="radio" name="50-70" id="50-70" />
+                      <span class="checkmark"></span>
+                      <label for="50-70">50 TL - 70 TL</label>
+                    </div>
+                  </a>
+
+                  <a href="#">
+                    <div class="price-interval-item">
+                      <input type="radio" name="70-80" id="70-80" />
+                      <span class="checkmark"></span>
+                      <label for="70-80">70 TL - 80 TL</label>
+                    </div>
+                  </a>
+
+                  <a href="#">
+                    <div class="price-interval-item">
+                      <input type="radio" name="80-90" id="80-90" />
+                      <span class="checkmark"></span>
+                      <label for="80-90">80 TL - 90 TL</label>
+                    </div>
+                  </a>
+
+                  <a href="#">
+                    <div class="price-interval-item">
+                      <input type="radio" name="90-125" id="90-125" />
+                      <span class="checkmark"></span>
+                      <label for="90-125">90 TL - 125 TL</label>
+                    </div>
+                  </a>
+
+                  <a href="#">
+                    <div class="price-interval-item">
+                      <input type="radio" name="125-4000" id="125-4000" />
+                      <span class="checkmark"></span>
+                      <label for="125-4000">125 TL - 4000 TL</label>
+                    </div>
+                  </a>
+                </div>
+
+              </form>
+            </div>
+
+            <hr>
+
+            <div class="free-ship">
+              <div class="free-ship-item">
+                <input type="checkbox" name="kargo-bedava" id="kargo-bedava" />
+                <div class="checkbox"></div>
+                <label for="kargo-bedava">Kargo Bedava</label>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Product Section -->
+          <div class="content-product">
+            <div class="product-top">
+              <h1>"Kadın Giyim" araması için 100.000+ sonuç listeleniyor</h1>
+              <select name="option_dropdown" id="option-dropdown">
+                <option value="önerilen">Önerilen</option>
+                <option value="düşük">En Düşük Fiyat</option>
+                <option value="yüksek">En Yüksek Fiyat</option>
+                <option value="yeni">En Yeniler</option>
+                <option value="çoksatan">Çok Satanlar</option>
+                <option value="favoriler">En Favoriler</option>
+                <option value="çokdeğerlendirilenler">En Çok Değerlendirilenler</option>
+              </select>
+            </div>
+            <!--Product Cards -->
+            <div class="product-cards">
+              <a href="#">
+                <div class="card">
+                  <div class="card-img">
+                    <svg width="230" height="350" viewBox="0 0 230 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="230" height="350" fill="#C4C4C4" />
+                    </svg>
+
+                    <div class="hearth-icon">
+                      <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d)">
+                          <path
+                            d="M46 24C46 35.598 36.598 45 25 45C13.402 45 4 35.598 4 24C4 12.402 13.402 3 25 3C36.598 3 46 12.402 46 24Z"
+                            fill="white" />
+                        </g>
+                        <path class="icon-border" fill-rule="evenodd" clip-rule="evenodd"
+                          d="M34.383 20.8834C34.383 15.1034 26.131 14.3564 25.193 20.1354C24.255 14.3564 16 14.6604 16 20.8834C16 27.1064 25.193 32.0964 25.193 32.0964C25.193 32.0964 34.383 26.6614 34.383 20.8834Z"
+                          stroke="#333333" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+                        <defs>
+                          <filter id="filter0_d" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                            <feOffset dy="1" />
+                            <feGaussianBlur stdDeviation="2" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                          </filter>
+                        </defs>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="card-info">
+                    <div class="product-name">
+                      TRENNDYOLMİLLA <span>CamelDantelli</span><br>
+                      <span>Örme Pijama Takımı...</span>
+                    </div>
+
+                    <div class="card-star">
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <span class="product-comment">(636)</span>
+                    </div>
+                    <span class="product-price">79.99 TL</span>
+                    <div class="product-discount">
+                      Sepette %30 İNDİRİM <span class="discount-price">55.90 TL</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+                <div class="card">
+
+                  <div class="card-img">
+                    <svg width="230" height="350" viewBox="0 0 230 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="230" height="350" fill="#C4C4C4" />
+                    </svg>
+                    <div class="hearth-icon">
+                      <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d)">
+                          <path
+                            d="M46 24C46 35.598 36.598 45 25 45C13.402 45 4 35.598 4 24C4 12.402 13.402 3 25 3C36.598 3 46 12.402 46 24Z"
+                            fill="white" />
+                        </g>
+                        <path class="icon-border" fill-rule="evenodd" clip-rule="evenodd"
+                          d="M34.383 20.8834C34.383 15.1034 26.131 14.3564 25.193 20.1354C24.255 14.3564 16 14.6604 16 20.8834C16 27.1064 25.193 32.0964 25.193 32.0964C25.193 32.0964 34.383 26.6614 34.383 20.8834Z"
+                          stroke="#333333" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+                        <defs>
+                          <filter id="filter0_d" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                            <feOffset dy="1" />
+                            <feGaussianBlur stdDeviation="2" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                          </filter>
+                        </defs>
+                      </svg>
+
+                    </div>
+                  </div>
+                  <div class="card-info">
+                    <div class="product-name">
+                      TRENNDYOLMİLLA <span>CamelDantelli</span><br>
+                      <span>Örme Pijama Takımı...</span>
+                    </div>
+
+                    <div class="card-star">
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <span class="product-comment">(636)</span>
+                    </div>
+                    <span class="product-price">79.99 TL</span>
+                    <div class="product-discount">
+                      Sepette %30 İNDİRİM <span class="discount-price">55.90 TL</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+                <div class="card">
+
+                  <div class="card-img">
+                    <svg width="230" height="350" viewBox="0 0 230 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="230" height="350" fill="#C4C4C4" />
+                    </svg>
+                    <div class="hearth-icon">
+                      <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d)">
+                          <path
+                            d="M46 24C46 35.598 36.598 45 25 45C13.402 45 4 35.598 4 24C4 12.402 13.402 3 25 3C36.598 3 46 12.402 46 24Z"
+                            fill="white" />
+                        </g>
+                        <path class="icon-border" fill-rule="evenodd" clip-rule="evenodd"
+                          d="M34.383 20.8834C34.383 15.1034 26.131 14.3564 25.193 20.1354C24.255 14.3564 16 14.6604 16 20.8834C16 27.1064 25.193 32.0964 25.193 32.0964C25.193 32.0964 34.383 26.6614 34.383 20.8834Z"
+                          stroke="#333333" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+                        <defs>
+                          <filter id="filter0_d" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                            <feOffset dy="1" />
+                            <feGaussianBlur stdDeviation="2" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                          </filter>
+                        </defs>
+                      </svg>
+
+                    </div>
+                  </div>
+                  <div class="card-info">
+                    <div class="product-name">
+                      TRENNDYOLMİLLA <span>CamelDantelli</span><br>
+                      <span>Örme Pijama Takımı...</span>
+                    </div>
+
+                    <div class="card-star">
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <span class="product-comment">(636)</span>
+                    </div>
+                    <span class="product-price">79.99 TL</span>
+                    <div class="product-discount">
+                      Sepette %30 İNDİRİM <span class="discount-price">55.90 TL</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+                <div class="card">
+
+                  <div class="card-img">
+                    <svg width="230" height="350" viewBox="0 0 230 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="230" height="350" fill="#C4C4C4" />
+                    </svg>
+                    <div class="hearth-icon">
+                      <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d)">
+                          <path
+                            d="M46 24C46 35.598 36.598 45 25 45C13.402 45 4 35.598 4 24C4 12.402 13.402 3 25 3C36.598 3 46 12.402 46 24Z"
+                            fill="white" />
+                        </g>
+                        <path class="icon-border" fill-rule="evenodd" clip-rule="evenodd"
+                          d="M34.383 20.8834C34.383 15.1034 26.131 14.3564 25.193 20.1354C24.255 14.3564 16 14.6604 16 20.8834C16 27.1064 25.193 32.0964 25.193 32.0964C25.193 32.0964 34.383 26.6614 34.383 20.8834Z"
+                          stroke="#333333" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+                        <defs>
+                          <filter id="filter0_d" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                            <feOffset dy="1" />
+                            <feGaussianBlur stdDeviation="2" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                          </filter>
+                        </defs>
+                      </svg>
+
+                    </div>
+                  </div>
+                  <div class="card-info">
+                    <div class="product-name">
+                      TRENNDYOLMİLLA <span>CamelDantelli</span><br>
+                      <span>Örme Pijama Takımı...</span>
+                    </div>
+
+                    <div class="card-star">
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <span class="product-comment">(636)</span>
+                    </div>
+                    <span class="product-price">79.99 TL</span>
+                    <div class="product-discount">
+                      Sepette %30 İNDİRİM <span class="discount-price">55.90 TL</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+                <div class="card">
+
+                  <div class="card-img">
+                    <svg width="230" height="350" viewBox="0 0 230 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="230" height="350" fill="#C4C4C4" />
+                    </svg>
+                    <div class="hearth-icon">
+                      <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d)">
+                          <path
+                            d="M46 24C46 35.598 36.598 45 25 45C13.402 45 4 35.598 4 24C4 12.402 13.402 3 25 3C36.598 3 46 12.402 46 24Z"
+                            fill="white" />
+                        </g>
+                        <path class="icon-border" fill-rule="evenodd" clip-rule="evenodd"
+                          d="M34.383 20.8834C34.383 15.1034 26.131 14.3564 25.193 20.1354C24.255 14.3564 16 14.6604 16 20.8834C16 27.1064 25.193 32.0964 25.193 32.0964C25.193 32.0964 34.383 26.6614 34.383 20.8834Z"
+                          stroke="#333333" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+                        <defs>
+                          <filter id="filter0_d" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                            <feOffset dy="1" />
+                            <feGaussianBlur stdDeviation="2" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                          </filter>
+                        </defs>
+                      </svg>
+
+                    </div>
+                  </div>
+                  <div class="card-info">
+                    <div class="product-name">
+                      TRENNDYOLMİLLA <span>CamelDantelli</span><br>
+                      <span>Örme Pijama Takımı...</span>
+                    </div>
+
+                    <div class="card-star">
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <span class="product-comment">(636)</span>
+                    </div>
+                    <span class="product-price">79.99 TL</span>
+                    <div class="product-discount">
+                      Sepette %30 İNDİRİM <span class="discount-price">55.90 TL</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+                <div class="card">
+
+                  <div class="card-img">
+                    <svg width="230" height="350" viewBox="0 0 230 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="230" height="350" fill="#C4C4C4" />
+                    </svg>
+                    <div class="hearth-icon">
+                      <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d)">
+                          <path
+                            d="M46 24C46 35.598 36.598 45 25 45C13.402 45 4 35.598 4 24C4 12.402 13.402 3 25 3C36.598 3 46 12.402 46 24Z"
+                            fill="white" />
+                        </g>
+                        <path class="icon-border" fill-rule="evenodd" clip-rule="evenodd"
+                          d="M34.383 20.8834C34.383 15.1034 26.131 14.3564 25.193 20.1354C24.255 14.3564 16 14.6604 16 20.8834C16 27.1064 25.193 32.0964 25.193 32.0964C25.193 32.0964 34.383 26.6614 34.383 20.8834Z"
+                          stroke="#333333" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+                        <defs>
+                          <filter id="filter0_d" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                            <feOffset dy="1" />
+                            <feGaussianBlur stdDeviation="2" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                          </filter>
+                        </defs>
+                      </svg>
+
+                    </div>
+                  </div>
+                  <div class="card-info">
+                    <div class="product-name">
+                      TRENNDYOLMİLLA <span>CamelDantelli</span><br>
+                      <span>Örme Pijama Takımı...</span>
+                    </div>
+
+                    <div class="card-star">
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <span class="product-comment">(636)</span>
+                    </div>
+                    <span class="product-price">79.99 TL</span>
+                    <div class="product-discount">
+                      Sepette %30 İNDİRİM <span class="discount-price">55.90 TL</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+                <div class="card">
+
+                  <div class="card-img">
+                    <svg width="230" height="350" viewBox="0 0 230 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="230" height="350" fill="#C4C4C4" />
+                    </svg>
+                    <div class="hearth-icon">
+                      <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d)">
+                          <path
+                            d="M46 24C46 35.598 36.598 45 25 45C13.402 45 4 35.598 4 24C4 12.402 13.402 3 25 3C36.598 3 46 12.402 46 24Z"
+                            fill="white" />
+                        </g>
+                        <path class="icon-border" fill-rule="evenodd" clip-rule="evenodd"
+                          d="M34.383 20.8834C34.383 15.1034 26.131 14.3564 25.193 20.1354C24.255 14.3564 16 14.6604 16 20.8834C16 27.1064 25.193 32.0964 25.193 32.0964C25.193 32.0964 34.383 26.6614 34.383 20.8834Z"
+                          stroke="#333333" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+                        <defs>
+                          <filter id="filter0_d" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                            <feOffset dy="1" />
+                            <feGaussianBlur stdDeviation="2" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                          </filter>
+                        </defs>
+                      </svg>
+
+                    </div>
+                  </div>
+                  <div class="card-info">
+                    <div class="product-name">
+                      TRENNDYOLMİLLA <span>CamelDantelli</span><br>
+                      <span>Örme Pijama Takımı...</span>
+                    </div>
+
+                    <div class="card-star">
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <span class="product-comment">(636)</span>
+                    </div>
+                    <span class="product-price">79.99 TL</span>
+                    <div class="product-discount">
+                      Sepette %30 İNDİRİM <span class="discount-price">55.90 TL</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+                <div class="card">
+
+                  <div class="card-img">
+                    <svg width="230" height="350" viewBox="0 0 230 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="230" height="350" fill="#C4C4C4" />
+                    </svg>
+                    <div class="hearth-icon">
+                      <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d)">
+                          <path
+                            d="M46 24C46 35.598 36.598 45 25 45C13.402 45 4 35.598 4 24C4 12.402 13.402 3 25 3C36.598 3 46 12.402 46 24Z"
+                            fill="white" />
+                        </g>
+                        <path class="icon-border" fill-rule="evenodd" clip-rule="evenodd"
+                          d="M34.383 20.8834C34.383 15.1034 26.131 14.3564 25.193 20.1354C24.255 14.3564 16 14.6604 16 20.8834C16 27.1064 25.193 32.0964 25.193 32.0964C25.193 32.0964 34.383 26.6614 34.383 20.8834Z"
+                          stroke="#333333" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+                        <defs>
+                          <filter id="filter0_d" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                            <feOffset dy="1" />
+                            <feGaussianBlur stdDeviation="2" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                          </filter>
+                        </defs>
+                      </svg>
+
+                    </div>
+                  </div>
+                  <div class="card-info">
+                    <div class="product-name">
+                      TRENNDYOLMİLLA <span>CamelDantelli</span><br>
+                      <span>Örme Pijama Takımı...</span>
+                    </div>
+
+                    <div class="card-star">
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M13.6676 5.01376C13.8141 5.03783 13.9348 5.14316 13.9808 5.29063C14.0268 5.43809 13.9894 5.6006 13.8773 5.70894L10.7281 8.94411L11.4838 13.4733C11.4924 13.5034 11.4953 13.5335 11.4953 13.5666C11.4953 13.7893 11.32 13.9729 11.1074 13.9729C11.047 13.9729 10.9867 13.9579 10.9292 13.9278L7.01847 11.788L3.11922 13.9518C3.06175 13.985 3.00141 14 2.9382 14C2.85774 14 2.77728 13.9729 2.71119 13.9218C2.59051 13.8315 2.53017 13.678 2.55603 13.5245L3.28875 8.96819L0.11936 5.75107C0.0130435 5.64574 -0.0271845 5.48323 0.0187904 5.33577C0.0647653 5.18831 0.185449 5.08297 0.331994 5.0589L4.69961 4.37876L6.63917 0.228719C6.70526 0.0872743 6.84032 0 6.98686 0C7.13341 0 7.26846 0.0872743 7.33455 0.225709L9.29997 4.36371L13.6676 5.01376Z"
+                          fill="#FFC000" />
+                      </svg>
+                      <span class="product-comment">(636)</span>
+                    </div>
+                    <span class="product-price">79.99 TL</span>
+                    <div class="product-discount">
+                      Sepette %30 İNDİRİM <span class="discount-price">55.90 TL</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
           </div>
         </div>
-        <div class="right-second-section"></div>
-      </div>
-    </main>
-  </body>
+      </section>
+    </div>
+
+  </div>
+
+</body>
+
 </html>

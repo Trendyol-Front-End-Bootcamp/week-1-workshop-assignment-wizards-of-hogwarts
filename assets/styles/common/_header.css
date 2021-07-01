@@ -2,10 +2,10 @@
     width: 1080px;
     margin: 0 auto;
   }
-  .container__main {
+.container__main {
     width: 1185px;
     margin: 0 auto;
-  }
+}
   
   .header-links {
     display: flex;
@@ -111,6 +111,9 @@
   
   /**/
   
+  .header-tabs-navigation {
+    border-bottom: 1px solid #E8E8E8;
+  }
   .header-tabs {
     display: flex;
     justify-content: space-between;
@@ -118,6 +121,7 @@
     /* padding-left: 23px; */
     margin-top: 30px;
     position: relative;
+
   }
   
   .header-tabs li {
