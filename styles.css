@@ -338,10 +338,17 @@ ul.account-list > li {
 .left-first-section,
 .left-second-section {
   position: relative;
+  cursor: pointer;
 }
 
-.left-second-section {
+.left-first-section:hover,
+.left-second-section:hover {
   border: 1px solid #ff671d;
+}
+
+.left-first-section:hover .bottom-navbar,
+.left-second-section:hover .bottom-navbar {
+  background: #ff671d;
 }
 
 .main-sections .bottom-navbar {
@@ -352,6 +359,8 @@ ul.account-list > li {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  background: black;
+  transition: all 0.4s;
 }
 
 .main-sections p {
@@ -362,14 +371,6 @@ ul.account-list > li {
   margin: 0;
   color: white;
   font-size: 14px;
-}
-
-.main-sections .left-first-section .bottom-navbar {
-  background: #1b1b1b;
-}
-
-.main-sections .left-second-section .bottom-navbar {
-  background: #ff671d;
 }
 
 .main-sections .left-arrow {
