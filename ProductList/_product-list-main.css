@@ -271,7 +271,7 @@ top:10px;
 left: 177px;
 }
 
-.product-cards .card-img .hearth-icon:hover #icon-border{
+.product-cards .card-img .hearth-icon:hover .icon-border{
   stroke: var(--primary-color);
 }
 
