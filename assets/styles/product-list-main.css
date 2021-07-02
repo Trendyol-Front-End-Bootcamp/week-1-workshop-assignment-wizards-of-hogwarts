@@ -12,7 +12,7 @@
 
 .main-content .menu-links ul li a {
   margin-right: 15px;
-  color: var(--account-link-color);
+  color: var(--primary-gray);
   font-size: 14px;
 }
 .main-content .menu-links ul li a:hover{
@@ -36,7 +36,7 @@
   align-self: baseline;
   padding: 6px 0px 7px 8px;
   font-size: 12px;
-  color: #666666;
+  color: var(--secondary-gray);
   border: 1px solid #e2e2e2;
   outline: none;
   background: transparent;
@@ -257,7 +257,6 @@
 }
 
 .product-cards .card:hover{
-  -webkit-box-shadow: 0px 3px 22px -13px rgba(102,102,102,0.95); 
   box-shadow: 0px 3px 22px -13px rgba(102,102,102,0.95);
   transition: box-shadow 0.6s ease-in-out;
 }
@@ -283,11 +282,11 @@ left: 177px;
 .product-cards .card .card-info .product-name{
   font-size: 14px;
   line-height: 18px;
-  color: #333333;
+  color: var(--primary-gray);
 }
 
 .product-cards .card .card-info .product-name span{
-  color: #666666;
+  color: var(--secondary-gray);
 }
 
 .product-cards .card .card-info .card-star .product-comment{
@@ -306,7 +305,7 @@ left: 177px;
   width: 172px;
   height: 26px;
   font-size: 12px;
-  color: #666666;
+  color: var(--secondary-gray);
   padding-top: 2px;
   margin-top: 10px;
   text-align: center;
